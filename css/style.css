@@ -29,3 +29,7 @@ width: 1000px; height: 1000px;
 #palinput{
     width: 23%;
 }
+
+.odd-card{
+    width: 50%;
+}

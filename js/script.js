@@ -3,7 +3,7 @@
 // Creare una funzione per capire se la parola inserita è palindroma
 
 
-//prendiamo i nostri tasti vari dad html
+//prendiamo i nostri tasti vari dati da html
 const userData = document.querySelector('input');
 const btnPal = document.getElementById('palPlay');
 const palResult = document.getElementById('palResult');
@@ -36,3 +36,4 @@ function checkPalindrome() {
         `
     }
 }
+

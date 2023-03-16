@@ -16,24 +16,58 @@
 <body class="bg-dark vh-100 text-light">
 
 
-    <a class=" " href="../index.html"><button class="btn btn-light m-4">Torna indietro</button></a>
-    <header class="d-flex align-items-center justify-content-center flex-column">
+    <a class=" " href="../index.html"><button class="btn btn-light m-3">Torna indietro</button></a>
+    <header class="d-flex align-items-center justify-content-center flex-column mb-5">
 
         <h1 class="text-center">Gioca a Pari e Dispari e prova a battere il computer!</h1>
         <em class="mb-3">Ideale se non hai amici con cui giocare!</em>
+        <div class="d-flex  align-items-center justify-content-center mb-5">
+
+            <label for="Gioco">Scegli tra pari o dispari:</label>
+            <select class="m-2" name="gioco" id="userChose">
+                <option value="pari">pari</option>
+                <option value="dispari">dispari</option>
+            </select>
+            <label class="m-2" for="">scegli un numero tra 1 e 5:</label>
+            <input id="numPl" class="m-2" type="number" max="5" min="1">
+        </div>
         <button id="play" class="m-auto btn btn-danger ">Play</button>
 
     </header>
     <main id="result" class="d-flex align-items-center justify-content-center flex-column">
 
+        <div class="odd-card card text-dark text-center mt-5 border-dark">
 
-       
+            <!-- <div class="card-header ">
+                <h4>
+                    Il vincitore è:
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col 6">
+                        <h3>Scelta giocatore:</h3>
+                        <h2></h2>
+                    </div>
+                    <div class="col 6">
+                        <h3>Scelta Computer:</h3>
+                        <h2> </h2>
+                    </div>
+                </div>
+
+                <div class="card-footer text-uppercase">
+                    <h3>vince il </h3>
+                </div>
+
+            </div>
+
+        </div> -->
 
     </main>
 
 
 
-    <script src="../js/script.js"></script>
+    <script src="../js/paridispari.js"></script>
 
 </body>
 
