@@ -1,0 +1,28 @@
+.gi-cont{
+
+width: 1000px; height: 1000px;
+}
+
+
+.gi-row{
+
+    width:  500px;
+    height:  500px;
+}
+
+.gi-card{
+    width: 500px;
+
+}
+
+.gi-result{
+
+    width: 600px;
+}
+
+.btn{
+
+
+    font-weight: 700;
+}
+
